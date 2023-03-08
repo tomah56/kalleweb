@@ -60,7 +60,14 @@ body, html {
 	text-align: center;
 	align-items: center;
 	justify-content: center;
+}
+
+.robotpicbox {
+	flex-direction: row;
+	display: flex;
+	flex: 50%;
  }
+
   .caption {
 	position: absolute;
 	left: 0;
