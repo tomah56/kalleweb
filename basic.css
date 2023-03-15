@@ -4,8 +4,33 @@ body, html {
 	font: 400 15px/1.8 "Lato", sans-serif;
 	color: #777;
   }
+
+.navbarhold {
+	background-color: #e8c8c885;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav a {
+	color: rgb(0, 0, 0);
+	padding: 15px 20px 5px 20px;
+	text-decoration: none;
+	text-align: center;
+	border-bottom: 10px solid #ffffff00;
+}
+
+a:hover {
+	border-bottom: 10px solid rgb(58, 55, 55);
+}
   
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4  {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
 	position: relative;
 	opacity: 0.65;
 	background-attachment: fixed;
@@ -23,6 +48,10 @@ body, html {
 	background-image: url("./img/pics/DSCF8828-2.jpg");
 	min-height: 400px;
   }
+  .bgimg-5 {
+	background-image: url("./img/pics/DSCF8828-2.jpg");
+	min-height: 200px;
+  }
   
   .bgimg-3 {
 	  background-image: url("./img/pics/DSCF8806.jpg");
@@ -39,7 +68,6 @@ body, html {
 	background-color:rgb(230, 229, 229);
 	text-align:center;
 	padding:50px 80px;
-	text-align: justify;
  }
 
  #second_float_box {
@@ -47,7 +75,7 @@ body, html {
 	background-color:rgb(230, 229, 229);
 	text-align:center;
 	padding:50px 80px;
-	text-align: justify;
+	/* text-align: justify; */
  }
  /* #firs_float_box img {
 	width: 50%;
@@ -60,6 +88,11 @@ body, html {
 	text-align: center;
 	align-items: center;
 	justify-content: center;
+}
+
+.imgdrawings {
+	width: 100%;
+	max-width: 600px;
 }
 
 .robotpicbox {
@@ -84,6 +117,17 @@ body, html {
 	font-size: 25px;
 	letter-spacing: 10px;
   }
+  .borderlink {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+	background-color:transparent;
+	font-size:25px;
+	text-decoration: none;
+	color: #f7f7f7;
+  }
   
   h3 {
 	letter-spacing: 5px;
@@ -91,7 +135,21 @@ body, html {
 	font: 20px "Lato", sans-serif;
 	color: #111;
   }
-  
+
+  .blackbox {
+	  color:#ddd;
+	  background-color:#282E34;
+	  text-align:center;
+	  padding:50px 80px;
+	  text-align: justify;
+	}
+	.blackbox a {
+		color:#ddd;
+		background-color:#282E34;
+		text-align:center;
+		text-decoration: none;
+	}
+	
   /* Turn off parallax scrolling for tablets and phones */
   @media only screen and (max-device-width: 1024px) {
 	.bgimg-1, .bgimg-2, .bgimg-3 {
