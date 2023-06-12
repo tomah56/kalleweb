@@ -40,7 +40,7 @@ a:hover {
   
   }
   .bgimg-1 {
-	background-image: url("./img/teampic.jpg");
+	background-image: url("./img/blubells2.jpg");
 	min-height: 100%;
   }
   
@@ -96,6 +96,28 @@ a:hover {
 	flex-direction: row;
 	display: flex;
 	flex: 50%;
+ }
+
+ .maincontent {
+	position: absolute;
+	width: 100%;
+	top: 5%;
+	text-align: center;
+}
+
+.undermain {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+ }
+.underundermain {
+	display: flex;
+	width: 95%;
+	background-color: rgba(1, 131, 16, 0.344);
+	justify-content: center;
+	border-radius: 20px;
+
+
  }
 
   .caption {
